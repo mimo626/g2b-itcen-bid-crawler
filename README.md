@@ -27,4 +27,5 @@ pip install requests pandas
 ## 사용 방법
 *  조회 기간 설정을 바꿔가며 새로운 데이터 갱신 가능함
 *  변수 result_count로 결과 값의 개수를 변경할 수 있음(단, 필터링되어 개수가 줄어듦)
-*  물품목록정보서비스의 분류 코드를 토대로 각 회사의 그룹사에 맞는 카테고리 코드로 설정해 뒀으며 추가할 수 있음
+*  procurement_classification_table.csv 파일은 공공데이터포털 조달청 물품목록정보서비스 API를 통해 추출한 코드임
+*  위의 파일에서 새로운 분류 코드를 CLOIT_CODES, ENTEC_CODES, GLOBAL_CODES의 성격에 맞게 추가할 수 있음
